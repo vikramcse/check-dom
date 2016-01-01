@@ -1,0 +1,33 @@
+{
+  "name": "has-dom",
+  "version": "1.0.0",
+  "description": "Check if a JavaScript environment has a DOM",
+  "license": "MIT",
+  "repository": "vikramcse/check-dom",
+  "author": {
+    "name": "Vikram Jadhav",
+    "email": "vikramcse.10@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha test.js",
+    "ci": "mocha test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "dom",
+    "env",
+    "environment",
+    "has",
+    "detect",
+    "check"
+  ],
+  "devDependencies": {
+    "should": "^7.1.1",
+    "mocha": "^2.3.3"
+  }
+}
