@@ -3,14 +3,11 @@
 
 ## Install
 
-```
-$ git clone https://github.com/vikramcse/check-dom.git
-$ cd check-dom
-$ npm install --save .
+```sh
+$ npm install --save check-dom
 ```
 
-
-## Usage
+## Example
 
 ```js
 var checkDOM = require('check-dom');
@@ -23,3 +20,11 @@ checkDOM();
 checkDOM();
 //=> true
 ```
+
+#### `require('check-dom')`
+
+**Returns**: Returns true if the environment has DOM
+
+## License
+
+&copy; 2016 vikram. MIT License
